@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://media.gqindia.com/wp-content/uploads/2015/12/Dubais-Burj-Khalifa-New-Years-celebrations-866x487.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body h1{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.count-down{
+    display: flex;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    font-size: 25px;
+}
+.time small{
+    font-family:cursive;
+}
+.year{
+    font-size: 50px;
+    opacity: 0.6;
+    bottom: 20px;
+}
